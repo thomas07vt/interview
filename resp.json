@@ -1,0 +1,1972 @@
+[
+    {
+        "id": "3743860631",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 1013707793,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "77b6ebd4fc28c7b6f4617cfbddd8561a8ed072b1",
+            "before": "c72d06da424160e2b11e3980280a4839e7c79cf6",
+            "commits": [
+                {
+                    "sha": "77b6ebd4fc28c7b6f4617cfbddd8561a8ed072b1",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "I wasn't capturing the thrown exception",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/77b6ebd4fc28c7b6f4617cfbddd8561a8ed072b1"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-03-09T22:57:30Z"
+    },
+    {
+        "id": "3743627567",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 1013631613,
+            "size": 2,
+            "distinct_size": 2,
+            "ref": "refs/heads/master",
+            "head": "c72d06da424160e2b11e3980280a4839e7c79cf6",
+            "before": "e00ac69226a70ca62182f398212bd4f39cc0a815",
+            "commits": [
+                {
+                    "sha": "a4c1c6da4caad47720e50f8f776f236a4a1c42b3",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Wrapping process block in a rescue to handle when things fail there.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/a4c1c6da4caad47720e50f8f776f236a4a1c42b3"
+                },
+                {
+                    "sha": "c72d06da424160e2b11e3980280a4839e7c79cf6",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Bump to 0.3.4",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/c72d06da424160e2b11e3980280a4839e7c79cf6"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-03-09T22:05:17Z"
+    },
+    {
+        "id": "3720376349",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "repository_url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/comments",
+                "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/events",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2",
+                "id": 138331811,
+                "number": 2,
+                "title": "Worker thread dies when AWS SDK throws and exeception",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2016-03-03T23:43:12Z",
+                "updated_at": "2016-03-03T23:44:08Z",
+                "closed_at": "2016-03-03T23:44:08Z",
+                "body": "AWS SDK threw an exception: \"No Content-Type received. Service returned the HTTP status code 500\" in the #poll() method which caused the worker thread to die.\r\n\r\nFixed in 849d062179c5b0b631459bfc5fc477a8ff1e36e8\r\n\r\n"
+            }
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:44:08Z"
+    },
+    {
+        "id": "3720376346",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "repository_url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/comments",
+                "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/events",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2",
+                "id": 138331811,
+                "number": 2,
+                "title": "Worker thread dies when AWS SDK throws and exeception",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "milestone": null,
+                "comments": 2,
+                "created_at": "2016-03-03T23:43:12Z",
+                "updated_at": "2016-03-03T23:44:08Z",
+                "closed_at": "2016-03-03T23:44:08Z",
+                "body": "AWS SDK threw an exception: \"No Content-Type received. Service returned the HTTP status code 500\" in the #poll() method which caused the worker thread to die.\r\n\r\nFixed in 849d062179c5b0b631459bfc5fc477a8ff1e36e8\r\n\r\n"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/comments/192023473",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2#issuecomment-192023473",
+                "issue_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "id": 192023473,
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2016-03-03T23:44:08Z",
+                "updated_at": "2016-03-03T23:44:08Z",
+                "body": "Fixed 849d062179c5b0b631459bfc5fc477a8ff1e36e8"
+            }
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:44:08Z"
+    },
+    {
+        "id": "3720375999",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "reopened",
+            "issue": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "repository_url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/comments",
+                "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/events",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2",
+                "id": 138331811,
+                "number": 2,
+                "title": "Worker thread dies when AWS SDK throws and exeception",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2016-03-03T23:43:12Z",
+                "updated_at": "2016-03-03T23:44:02Z",
+                "closed_at": null,
+                "body": "AWS SDK threw an exception: \"No Content-Type received. Service returned the HTTP status code 500\" in the #poll() method which caused the worker thread to die.\r\n\r\nFixed in 849d062179c5b0b631459bfc5fc477a8ff1e36e8\r\n\r\n"
+            }
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:44:03Z"
+    },
+    {
+        "id": "3720375465",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "repository_url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/comments",
+                "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/events",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2",
+                "id": 138331811,
+                "number": 2,
+                "title": "Worker thread dies when AWS SDK throws and exeception",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2016-03-03T23:43:12Z",
+                "updated_at": "2016-03-03T23:43:52Z",
+                "closed_at": "2016-03-03T23:43:52Z",
+                "body": "AWS SDK threw an exception: \"No Content-Type received. Service returned the HTTP status code 500\" in the #poll() method which caused the worker thread to die.\r\n\r\nFixed in 849d062179c5b0b631459bfc5fc477a8ff1e36e8\r\n\r\n"
+            }
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:43:52Z"
+    },
+    {
+        "id": "3720375309",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "reopened",
+            "issue": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "repository_url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/comments",
+                "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/events",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2",
+                "id": 138331811,
+                "number": 2,
+                "title": "Worker thread dies when AWS SDK throws and exeception",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2016-03-03T23:43:12Z",
+                "updated_at": "2016-03-03T23:43:49Z",
+                "closed_at": null,
+                "body": "AWS SDK threw an exception: \"No Content-Type received. Service returned the HTTP status code 500\" in the #poll() method which caused the worker thread to die.\r\n\r\nFixed in 849d062179c5b0b631459bfc5fc477a8ff1e36e8\r\n\r\n"
+            }
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:43:49Z"
+    },
+    {
+        "id": "3720374018",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "closed",
+            "issue": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "repository_url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/comments",
+                "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/events",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2",
+                "id": 138331811,
+                "number": 2,
+                "title": "Worker thread dies when AWS SDK throws and exeception",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2016-03-03T23:43:12Z",
+                "updated_at": "2016-03-03T23:43:30Z",
+                "closed_at": "2016-03-03T23:43:30Z",
+                "body": "AWS SDK threw an exception: \"No Content-Type received. Service returned the HTTP status code 500\" in the #poll() method which caused the worker thread to die.\r\n\r\nFixed in 849d062179c5b0b631459bfc5fc477a8ff1e36e8\r\n\r\n"
+            }
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:43:30Z"
+    },
+    {
+        "id": "3720374016",
+        "type": "IssueCommentEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "created",
+            "issue": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "repository_url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/comments",
+                "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/events",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2",
+                "id": 138331811,
+                "number": 2,
+                "title": "Worker thread dies when AWS SDK throws and exeception",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "closed",
+                "locked": false,
+                "assignee": null,
+                "milestone": null,
+                "comments": 1,
+                "created_at": "2016-03-03T23:43:12Z",
+                "updated_at": "2016-03-03T23:43:30Z",
+                "closed_at": "2016-03-03T23:43:30Z",
+                "body": "AWS SDK threw an exception: \"No Content-Type received. Service returned the HTTP status code 500\" in the #poll() method which caused the worker thread to die.\r\n\r\nFixed in 849d062179c5b0b631459bfc5fc477a8ff1e36e8\r\n\r\n"
+            },
+            "comment": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/comments/192023313",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2#issuecomment-192023313",
+                "issue_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "id": 192023313,
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "created_at": "2016-03-03T23:43:30Z",
+                "updated_at": "2016-03-03T23:43:30Z",
+                "body": "Worker thread will now retry"
+            }
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:43:30Z"
+    },
+    {
+        "id": "3720373168",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2",
+                "repository_url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/labels{/name}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/comments",
+                "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/2/events",
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/issues/2",
+                "id": 138331811,
+                "number": 2,
+                "title": "Worker thread dies when AWS SDK throws and exeception",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2016-03-03T23:43:12Z",
+                "updated_at": "2016-03-03T23:43:12Z",
+                "closed_at": null,
+                "body": "AWS SDK threw an exception: \"No Content-Type received. Service returned the HTTP status code 500\" in the #poll() method which caused the worker thread to die.\r\n\r\nFixed in 849d062179c5b0b631459bfc5fc477a8ff1e36e8\r\n\r\n"
+            }
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:43:12Z"
+    },
+    {
+        "id": "3720325003",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 1005041177,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "e00ac69226a70ca62182f398212bd4f39cc0a815",
+            "before": "849d062179c5b0b631459bfc5fc477a8ff1e36e8",
+            "commits": [
+                {
+                    "sha": "e00ac69226a70ca62182f398212bd4f39cc0a815",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Bump to 0.3.3",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/e00ac69226a70ca62182f398212bd4f39cc0a815"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:29:35Z"
+    },
+    {
+        "id": "3720322342",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 1005040232,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "849d062179c5b0b631459bfc5fc477a8ff1e36e8",
+            "before": "533aeee5527939cd6c1ba30a3cc37223860ad1f0",
+            "commits": [
+                {
+                    "sha": "849d062179c5b0b631459bfc5fc477a8ff1e36e8",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Adding a retry when AWS sdk throws internal exceptions. We were getting random 'No Content-Type received. Service returned the HTTP status code' failures",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/849d062179c5b0b631459bfc5fc477a8ff1e36e8"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-03-03T23:28:48Z"
+    },
+    {
+        "id": "3695052624",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 995815096,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "533aeee5527939cd6c1ba30a3cc37223860ad1f0",
+            "before": "2f9dd88917ef40f70b51581223ddcb43e51ceef4",
+            "commits": [
+                {
+                    "sha": "533aeee5527939cd6c1ba30a3cc37223860ad1f0",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Adding another rescue block to see why the worker thread is dying.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/533aeee5527939cd6c1ba30a3cc37223860ad1f0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-02-26T18:46:23Z"
+    },
+    {
+        "id": "3687166334",
+        "type": "IssuesEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 10696882,
+            "name": "hanami/router",
+            "url": "https://api.github.com/repos/hanami/router"
+        },
+        "payload": {
+            "action": "opened",
+            "issue": {
+                "url": "https://api.github.com/repos/hanami/router/issues/96",
+                "repository_url": "https://api.github.com/repos/hanami/router",
+                "labels_url": "https://api.github.com/repos/hanami/router/issues/96/labels{/name}",
+                "comments_url": "https://api.github.com/repos/hanami/router/issues/96/comments",
+                "events_url": "https://api.github.com/repos/hanami/router/issues/96/events",
+                "html_url": "https://github.com/hanami/router/issues/96",
+                "id": 136295984,
+                "number": 96,
+                "title": "Documention/Implementation of handling router errors",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "labels": [],
+                "state": "open",
+                "locked": false,
+                "assignee": null,
+                "milestone": null,
+                "comments": 0,
+                "created_at": "2016-02-25T06:35:59Z",
+                "updated_at": "2016-02-25T06:35:59Z",
+                "closed_at": null,
+                "body": "Hi, I am trying to user your router in a stand alone app (without the Hanami framework) and I am wondering if there is any documentation around how to handle errors before the request gets to a controller. For instance, how should I handle parsing errors?\r\n\r\nLets say I have this router implementation:\r\n```ruby\r\n$router = Hanami::Router.new(parsers: [:json]) do\r\n  patch '/books', to: ->(env) { [200, {},[env['router.params'].inspect]] }\r\nend\r\n```\r\n\r\nAnd in my config.ru I have something like this:\r\n\r\n```ruby\r\nmap \"/\" do\r\n  run $router\r\nend\r\n```\r\n\r\nIf I pass invalid JSON to /books, a Hanami::Routing::Parsing::BodyParsingError will be raised. But, if I want to handle that in a custom way, how would I implement that?"
+            }
+        },
+        "public": true,
+        "created_at": "2016-02-25T06:36:00Z",
+        "org": {
+            "id": 3210273,
+            "login": "hanami",
+            "gravatar_id": "",
+            "url": "https://api.github.com/orgs/hanami",
+            "avatar_url": "https://avatars.githubusercontent.com/u/3210273?"
+        }
+    },
+    {
+        "id": "3680419675",
+        "type": "DeleteEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "ref": "catch-exceptions",
+            "ref_type": "branch",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2016-02-23T22:07:41Z"
+    },
+    {
+        "id": "3680413768",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 990572006,
+            "size": 2,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "2f9dd88917ef40f70b51581223ddcb43e51ceef4",
+            "before": "a3195c84e28c6bc05fcdbce227a4d5cb85bbb464",
+            "commits": [
+                {
+                    "sha": "f3245d3e25a41bfd3d7a68ddc115dfa3cf413321",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Adding some exception handling code",
+                    "distinct": false,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/f3245d3e25a41bfd3d7a68ddc115dfa3cf413321"
+                },
+                {
+                    "sha": "2f9dd88917ef40f70b51581223ddcb43e51ceef4",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Merge pull request #1 from thomas07vt/catch-exceptions\n\nAdding some exception handling code",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/2f9dd88917ef40f70b51581223ddcb43e51ceef4"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-02-23T22:06:28Z"
+    },
+    {
+        "id": "3680413731",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "closed",
+            "number": 1,
+            "pull_request": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1",
+                "id": 60418391,
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/pull/1",
+                "diff_url": "https://github.com/thomas07vt/sqs_buffer/pull/1.diff",
+                "patch_url": "https://github.com/thomas07vt/sqs_buffer/pull/1.patch",
+                "issue_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/1",
+                "number": 1,
+                "state": "closed",
+                "locked": false,
+                "title": "Adding some exception handling code",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "created_at": "2016-02-23T22:06:21Z",
+                "updated_at": "2016-02-23T22:06:26Z",
+                "closed_at": "2016-02-23T22:06:26Z",
+                "merged_at": "2016-02-23T22:06:26Z",
+                "merge_commit_sha": "41251720a57d5e8eeafd595da05278f1c6afe2b1",
+                "assignee": null,
+                "milestone": null,
+                "commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1/commits",
+                "review_comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1/comments",
+                "review_comment_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/1/comments",
+                "statuses_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/statuses/f3245d3e25a41bfd3d7a68ddc115dfa3cf413321",
+                "head": {
+                    "label": "thomas07vt:catch-exceptions",
+                    "ref": "catch-exceptions",
+                    "sha": "f3245d3e25a41bfd3d7a68ddc115dfa3cf413321",
+                    "user": {
+                        "login": "thomas07vt",
+                        "id": 4843541,
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/thomas07vt",
+                        "html_url": "https://github.com/thomas07vt",
+                        "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                        "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                        "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                        "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                        "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 50454973,
+                        "name": "sqs_buffer",
+                        "full_name": "thomas07vt/sqs_buffer",
+                        "owner": {
+                            "login": "thomas07vt",
+                            "id": 4843541,
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/thomas07vt",
+                            "html_url": "https://github.com/thomas07vt",
+                            "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                            "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                            "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                            "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                            "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/thomas07vt/sqs_buffer",
+                        "description": "",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                        "forks_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/forks",
+                        "keys_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/teams",
+                        "hooks_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/hooks",
+                        "issue_events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/events",
+                        "assignees_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/tags",
+                        "blobs_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/languages",
+                        "stargazers_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/stargazers",
+                        "contributors_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/contributors",
+                        "subscribers_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/subscribers",
+                        "subscription_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/subscription",
+                        "commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/merges",
+                        "archive_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/downloads",
+                        "issues_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/deployments",
+                        "created_at": "2016-01-26T19:53:50Z",
+                        "updated_at": "2016-01-26T19:55:24Z",
+                        "pushed_at": "2016-02-23T22:06:26Z",
+                        "git_url": "git://github.com/thomas07vt/sqs_buffer.git",
+                        "ssh_url": "git@github.com:thomas07vt/sqs_buffer.git",
+                        "clone_url": "https://github.com/thomas07vt/sqs_buffer.git",
+                        "svn_url": "https://github.com/thomas07vt/sqs_buffer",
+                        "homepage": null,
+                        "size": 11,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "Ruby",
+                        "has_issues": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "open_issues_count": 0,
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "thomas07vt:master",
+                    "ref": "master",
+                    "sha": "a3195c84e28c6bc05fcdbce227a4d5cb85bbb464",
+                    "user": {
+                        "login": "thomas07vt",
+                        "id": 4843541,
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/thomas07vt",
+                        "html_url": "https://github.com/thomas07vt",
+                        "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                        "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                        "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                        "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                        "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 50454973,
+                        "name": "sqs_buffer",
+                        "full_name": "thomas07vt/sqs_buffer",
+                        "owner": {
+                            "login": "thomas07vt",
+                            "id": 4843541,
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/thomas07vt",
+                            "html_url": "https://github.com/thomas07vt",
+                            "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                            "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                            "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                            "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                            "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/thomas07vt/sqs_buffer",
+                        "description": "",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                        "forks_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/forks",
+                        "keys_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/teams",
+                        "hooks_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/hooks",
+                        "issue_events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/events",
+                        "assignees_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/tags",
+                        "blobs_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/languages",
+                        "stargazers_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/stargazers",
+                        "contributors_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/contributors",
+                        "subscribers_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/subscribers",
+                        "subscription_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/subscription",
+                        "commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/merges",
+                        "archive_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/downloads",
+                        "issues_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/deployments",
+                        "created_at": "2016-01-26T19:53:50Z",
+                        "updated_at": "2016-01-26T19:55:24Z",
+                        "pushed_at": "2016-02-23T22:06:26Z",
+                        "git_url": "git://github.com/thomas07vt/sqs_buffer.git",
+                        "ssh_url": "git@github.com:thomas07vt/sqs_buffer.git",
+                        "clone_url": "https://github.com/thomas07vt/sqs_buffer.git",
+                        "svn_url": "https://github.com/thomas07vt/sqs_buffer",
+                        "homepage": null,
+                        "size": 11,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "Ruby",
+                        "has_issues": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "open_issues_count": 0,
+                        "forks": 0,
+                        "open_issues": 0,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1"
+                    },
+                    "html": {
+                        "href": "https://github.com/thomas07vt/sqs_buffer/pull/1"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/1"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/1/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/statuses/f3245d3e25a41bfd3d7a68ddc115dfa3cf413321"
+                    }
+                },
+                "merged": true,
+                "mergeable": null,
+                "mergeable_state": "unknown",
+                "merged_by": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "comments": 0,
+                "review_comments": 0,
+                "commits": 1,
+                "additions": 26,
+                "deletions": 18,
+                "changed_files": 4
+            }
+        },
+        "public": true,
+        "created_at": "2016-02-23T22:06:27Z"
+    },
+    {
+        "id": "3680413235",
+        "type": "PullRequestEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "action": "opened",
+            "number": 1,
+            "pull_request": {
+                "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1",
+                "id": 60418391,
+                "html_url": "https://github.com/thomas07vt/sqs_buffer/pull/1",
+                "diff_url": "https://github.com/thomas07vt/sqs_buffer/pull/1.diff",
+                "patch_url": "https://github.com/thomas07vt/sqs_buffer/pull/1.patch",
+                "issue_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/1",
+                "number": 1,
+                "state": "open",
+                "locked": false,
+                "title": "Adding some exception handling code",
+                "user": {
+                    "login": "thomas07vt",
+                    "id": 4843541,
+                    "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                    "gravatar_id": "",
+                    "url": "https://api.github.com/users/thomas07vt",
+                    "html_url": "https://github.com/thomas07vt",
+                    "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                    "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                    "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                    "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                    "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                    "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                    "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                    "type": "User",
+                    "site_admin": false
+                },
+                "body": "",
+                "created_at": "2016-02-23T22:06:21Z",
+                "updated_at": "2016-02-23T22:06:21Z",
+                "closed_at": null,
+                "merged_at": null,
+                "merge_commit_sha": null,
+                "assignee": null,
+                "milestone": null,
+                "commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1/commits",
+                "review_comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1/comments",
+                "review_comment_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/comments{/number}",
+                "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/1/comments",
+                "statuses_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/statuses/f3245d3e25a41bfd3d7a68ddc115dfa3cf413321",
+                "head": {
+                    "label": "thomas07vt:catch-exceptions",
+                    "ref": "catch-exceptions",
+                    "sha": "f3245d3e25a41bfd3d7a68ddc115dfa3cf413321",
+                    "user": {
+                        "login": "thomas07vt",
+                        "id": 4843541,
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/thomas07vt",
+                        "html_url": "https://github.com/thomas07vt",
+                        "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                        "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                        "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                        "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                        "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 50454973,
+                        "name": "sqs_buffer",
+                        "full_name": "thomas07vt/sqs_buffer",
+                        "owner": {
+                            "login": "thomas07vt",
+                            "id": 4843541,
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/thomas07vt",
+                            "html_url": "https://github.com/thomas07vt",
+                            "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                            "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                            "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                            "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                            "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/thomas07vt/sqs_buffer",
+                        "description": "",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                        "forks_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/forks",
+                        "keys_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/teams",
+                        "hooks_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/hooks",
+                        "issue_events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/events",
+                        "assignees_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/tags",
+                        "blobs_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/languages",
+                        "stargazers_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/stargazers",
+                        "contributors_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/contributors",
+                        "subscribers_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/subscribers",
+                        "subscription_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/subscription",
+                        "commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/merges",
+                        "archive_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/downloads",
+                        "issues_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/deployments",
+                        "created_at": "2016-01-26T19:53:50Z",
+                        "updated_at": "2016-01-26T19:55:24Z",
+                        "pushed_at": "2016-02-23T22:05:26Z",
+                        "git_url": "git://github.com/thomas07vt/sqs_buffer.git",
+                        "ssh_url": "git@github.com:thomas07vt/sqs_buffer.git",
+                        "clone_url": "https://github.com/thomas07vt/sqs_buffer.git",
+                        "svn_url": "https://github.com/thomas07vt/sqs_buffer",
+                        "homepage": null,
+                        "size": 11,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "Ruby",
+                        "has_issues": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "open_issues_count": 1,
+                        "forks": 0,
+                        "open_issues": 1,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "base": {
+                    "label": "thomas07vt:master",
+                    "ref": "master",
+                    "sha": "a3195c84e28c6bc05fcdbce227a4d5cb85bbb464",
+                    "user": {
+                        "login": "thomas07vt",
+                        "id": 4843541,
+                        "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                        "gravatar_id": "",
+                        "url": "https://api.github.com/users/thomas07vt",
+                        "html_url": "https://github.com/thomas07vt",
+                        "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                        "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                        "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                        "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                        "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                        "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                        "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                        "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                        "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                        "type": "User",
+                        "site_admin": false
+                    },
+                    "repo": {
+                        "id": 50454973,
+                        "name": "sqs_buffer",
+                        "full_name": "thomas07vt/sqs_buffer",
+                        "owner": {
+                            "login": "thomas07vt",
+                            "id": 4843541,
+                            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?v=3",
+                            "gravatar_id": "",
+                            "url": "https://api.github.com/users/thomas07vt",
+                            "html_url": "https://github.com/thomas07vt",
+                            "followers_url": "https://api.github.com/users/thomas07vt/followers",
+                            "following_url": "https://api.github.com/users/thomas07vt/following{/other_user}",
+                            "gists_url": "https://api.github.com/users/thomas07vt/gists{/gist_id}",
+                            "starred_url": "https://api.github.com/users/thomas07vt/starred{/owner}{/repo}",
+                            "subscriptions_url": "https://api.github.com/users/thomas07vt/subscriptions",
+                            "organizations_url": "https://api.github.com/users/thomas07vt/orgs",
+                            "repos_url": "https://api.github.com/users/thomas07vt/repos",
+                            "events_url": "https://api.github.com/users/thomas07vt/events{/privacy}",
+                            "received_events_url": "https://api.github.com/users/thomas07vt/received_events",
+                            "type": "User",
+                            "site_admin": false
+                        },
+                        "private": false,
+                        "html_url": "https://github.com/thomas07vt/sqs_buffer",
+                        "description": "",
+                        "fork": false,
+                        "url": "https://api.github.com/repos/thomas07vt/sqs_buffer",
+                        "forks_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/forks",
+                        "keys_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/keys{/key_id}",
+                        "collaborators_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/collaborators{/collaborator}",
+                        "teams_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/teams",
+                        "hooks_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/hooks",
+                        "issue_events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/events{/number}",
+                        "events_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/events",
+                        "assignees_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/assignees{/user}",
+                        "branches_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/branches{/branch}",
+                        "tags_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/tags",
+                        "blobs_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/blobs{/sha}",
+                        "git_tags_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/tags{/sha}",
+                        "git_refs_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/refs{/sha}",
+                        "trees_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/trees{/sha}",
+                        "statuses_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/statuses/{sha}",
+                        "languages_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/languages",
+                        "stargazers_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/stargazers",
+                        "contributors_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/contributors",
+                        "subscribers_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/subscribers",
+                        "subscription_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/subscription",
+                        "commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits{/sha}",
+                        "git_commits_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/git/commits{/sha}",
+                        "comments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/comments{/number}",
+                        "issue_comment_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/comments{/number}",
+                        "contents_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/contents/{+path}",
+                        "compare_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/compare/{base}...{head}",
+                        "merges_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/merges",
+                        "archive_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/{archive_format}{/ref}",
+                        "downloads_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/downloads",
+                        "issues_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues{/number}",
+                        "pulls_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls{/number}",
+                        "milestones_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/milestones{/number}",
+                        "notifications_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/notifications{?since,all,participating}",
+                        "labels_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/labels{/name}",
+                        "releases_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/releases{/id}",
+                        "deployments_url": "https://api.github.com/repos/thomas07vt/sqs_buffer/deployments",
+                        "created_at": "2016-01-26T19:53:50Z",
+                        "updated_at": "2016-01-26T19:55:24Z",
+                        "pushed_at": "2016-02-23T22:05:26Z",
+                        "git_url": "git://github.com/thomas07vt/sqs_buffer.git",
+                        "ssh_url": "git@github.com:thomas07vt/sqs_buffer.git",
+                        "clone_url": "https://github.com/thomas07vt/sqs_buffer.git",
+                        "svn_url": "https://github.com/thomas07vt/sqs_buffer",
+                        "homepage": null,
+                        "size": 11,
+                        "stargazers_count": 0,
+                        "watchers_count": 0,
+                        "language": "Ruby",
+                        "has_issues": true,
+                        "has_downloads": true,
+                        "has_wiki": true,
+                        "has_pages": false,
+                        "forks_count": 0,
+                        "mirror_url": null,
+                        "open_issues_count": 1,
+                        "forks": 0,
+                        "open_issues": 1,
+                        "watchers": 0,
+                        "default_branch": "master"
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1"
+                    },
+                    "html": {
+                        "href": "https://github.com/thomas07vt/sqs_buffer/pull/1"
+                    },
+                    "issue": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/1"
+                    },
+                    "comments": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/issues/1/comments"
+                    },
+                    "review_comments": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1/comments"
+                    },
+                    "review_comment": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/comments{/number}"
+                    },
+                    "commits": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/pulls/1/commits"
+                    },
+                    "statuses": {
+                        "href": "https://api.github.com/repos/thomas07vt/sqs_buffer/statuses/f3245d3e25a41bfd3d7a68ddc115dfa3cf413321"
+                    }
+                },
+                "merged": false,
+                "mergeable": null,
+                "mergeable_state": "unknown",
+                "merged_by": null,
+                "comments": 0,
+                "review_comments": 0,
+                "commits": 1,
+                "additions": 26,
+                "deletions": 18,
+                "changed_files": 4
+            }
+        },
+        "public": true,
+        "created_at": "2016-02-23T22:06:22Z"
+    },
+    {
+        "id": "3680409109",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "ref": "catch-exceptions",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2016-02-23T22:05:26Z"
+    },
+    {
+        "id": "3603456322",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 962551071,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "a3195c84e28c6bc05fcdbce227a4d5cb85bbb464",
+            "before": "36ca9e982e091c822baa45551f1849ef191934cd",
+            "commits": [
+                {
+                    "sha": "a3195c84e28c6bc05fcdbce227a4d5cb85bbb464",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Adding a method to calculate the time since last process.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/a3195c84e28c6bc05fcdbce227a4d5cb85bbb464"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-02-03T19:07:46Z"
+    },
+    {
+        "id": "3602941724",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 962373941,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "36ca9e982e091c822baa45551f1849ef191934cd",
+            "before": "7d759ad06e2c9a4337162bbe95d7006e08d96a6f",
+            "commits": [
+                {
+                    "sha": "36ca9e982e091c822baa45551f1849ef191934cd",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Adding a rescue around each delete message block so we don't stop the whole delete process for 10 messages that fail.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/36ca9e982e091c822baa45551f1849ef191934cd"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-02-03T17:15:39Z"
+    },
+    {
+        "id": "3595433183",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 959694054,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "7d759ad06e2c9a4337162bbe95d7006e08d96a6f",
+            "before": "98fc7cb2badb167fe77b43e68f0a5b0058a41fe3",
+            "commits": [
+                {
+                    "sha": "7d759ad06e2c9a4337162bbe95d7006e08d96a6f",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Adding some to_i calls to make sure the options passed by users are correctly interpolated to integers.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/7d759ad06e2c9a4337162bbe95d7006e08d96a6f"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-02-02T06:33:37Z"
+    },
+    {
+        "id": "3594507383",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 959372636,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "98fc7cb2badb167fe77b43e68f0a5b0058a41fe3",
+            "before": "1687118db999f93e3169f98b5c5703fae813005b",
+            "commits": [
+                {
+                    "sha": "98fc7cb2badb167fe77b43e68f0a5b0058a41fe3",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Removing another old reference to queue that should be buffer.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/98fc7cb2badb167fe77b43e68f0a5b0058a41fe3"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-02-02T00:02:35Z"
+    },
+    {
+        "id": "3594319195",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 959310377,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "1687118db999f93e3169f98b5c5703fae813005b",
+            "before": "af0d9e3f7ff11a4604749e1bf88b6a524f183886",
+            "commits": [
+                {
+                    "sha": "1687118db999f93e3169f98b5c5703fae813005b",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "I am dump and haven't been writing tests so I renamed a method and forgot to propgate the change accross the gem. I gotta have more cow... er tests",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/1687118db999f93e3169f98b5c5703fae813005b"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-02-01T23:08:50Z"
+    },
+    {
+        "id": "3588063098",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 956932173,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "af0d9e3f7ff11a4604749e1bf88b6a524f183886",
+            "before": "0616adbab7b682d9d8de2954065628fa04cb26e2",
+            "commits": [
+                {
+                    "sha": "af0d9e3f7ff11a4604749e1bf88b6a524f183886",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Adding a moving from calling the internal message queue, 'queue' to 'buffer' since we talk to the external sqs queue. Also adding a deep copy on the internal message buffer when we pass it to the outside world, so we don't have mutations.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/af0d9e3f7ff11a4604749e1bf88b6a524f183886"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-01-30T19:25:00Z"
+    },
+    {
+        "id": "3571854252",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 951136993,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "0616adbab7b682d9d8de2954065628fa04cb26e2",
+            "before": "0ddcea0ba00eb992b3872e7e1001f7ae697c70a0",
+            "commits": [
+                {
+                    "sha": "0616adbab7b682d9d8de2954065628fa04cb26e2",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Bump version for stupid typo.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/0616adbab7b682d9d8de2954065628fa04cb26e2"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-01-26T21:12:39Z"
+    },
+    {
+        "id": "3571851502",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 951136051,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "0ddcea0ba00eb992b3872e7e1001f7ae697c70a0",
+            "before": "5f08c99484077362ac020d26cb9c0aed75b80432",
+            "commits": [
+                {
+                    "sha": "0ddcea0ba00eb992b3872e7e1001f7ae697c70a0",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Oops. Wrong instance variable name.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/0ddcea0ba00eb992b3872e7e1001f7ae697c70a0"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-01-26T21:12:02Z"
+    },
+    {
+        "id": "3571570369",
+        "type": "PushEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "push_id": 951038949,
+            "size": 1,
+            "distinct_size": 1,
+            "ref": "refs/heads/master",
+            "head": "5f08c99484077362ac020d26cb9c0aed75b80432",
+            "before": "e80ea3cfef047e831f2579106ff95e78d70c4abd",
+            "commits": [
+                {
+                    "sha": "5f08c99484077362ac020d26cb9c0aed75b80432",
+                    "author": {
+                        "email": "thomas07@vt.edu",
+                        "name": "John Thomas"
+                    },
+                    "message": "Adding client class that should work. Need to write spec tests for this though.",
+                    "distinct": true,
+                    "url": "https://api.github.com/repos/thomas07vt/sqs_buffer/commits/5f08c99484077362ac020d26cb9c0aed75b80432"
+                }
+            ]
+        },
+        "public": true,
+        "created_at": "2016-01-26T20:05:09Z"
+    },
+    {
+        "id": "3571523671",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "ref": "master",
+            "ref_type": "branch",
+            "master_branch": "master",
+            "description": "",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2016-01-26T19:55:23Z"
+    },
+    {
+        "id": "3571516533",
+        "type": "CreateEvent",
+        "actor": {
+            "id": 4843541,
+            "login": "thomas07vt",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/thomas07vt",
+            "avatar_url": "https://avatars.githubusercontent.com/u/4843541?"
+        },
+        "repo": {
+            "id": 50454973,
+            "name": "thomas07vt/sqs_buffer",
+            "url": "https://api.github.com/repos/thomas07vt/sqs_buffer"
+        },
+        "payload": {
+            "ref": null,
+            "ref_type": "repository",
+            "master_branch": "master",
+            "description": "",
+            "pusher_type": "user"
+        },
+        "public": true,
+        "created_at": "2016-01-26T19:53:50Z"
+    }
+]
