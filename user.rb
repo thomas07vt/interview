@@ -2,7 +2,7 @@ require 'open-uri'
 require 'json'
 require 'pry'
 
-class App
+class User
   attr_reader :events
 
   def initialize(user)
@@ -16,8 +16,8 @@ class App
     0
   end
 
-
   def help!
+    puts "The User class get initialized with a GitHub User ID and will fetch all the user's public events."
     puts "@events is an #{@events.class}"
     puts "each element is a #{@events[0].class}"
     puts "with the following keys: #{@events[0].keys}"

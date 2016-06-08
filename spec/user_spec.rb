@@ -1,13 +1,13 @@
 require_relative '../app.rb'
 require 'rspec'
 
-describe App do
+describe User do
   before do
-    @app = App.new('thomas07vt')
+    @user = User.new('thomas07vt')
   end
 
   it 'calculates users score' do
-    expect(@app.score).to eq(113)
+    expect(@user.score).to eq(113)
   end
 
 end
